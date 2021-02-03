@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main{
+    background: #15202B;
+}
+
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-evenly;
+    color:#FFF;
+}
+
+.leftBar{
+    display: flex;
+    flex-direction: column;
+}
+
+.leftBarItem{
+    margin-top: 30px;
+    font-size: 22px;
+}
+
+.centerContent , .title{
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid #38444D;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.titleText{
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.voidDiv{
+    height: 10px;
+    background: #192734;
+    border: 1px solid #38444D;
+}
+
+.tweetItem{
+    border-top: 1px solid #38444D;
+    border-bottom: 1px solid #38444D;
+}
+
+.tweetItemContent{
+    display: flex;
+    margin: 15px 15px 10px 15px;
+}
+
+.avatarImage{
+    margin-right: 10px;
+    max-height: 50px;
+    max-width: 50px;
+    border-radius: 100px;
+}
+
+.profileLink{
+    display:flex;
+    text-decoration: none;
+    height: 18px;
+}
+
+.profileName{
+    color: #FFF;
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.profileName:hover{
+    border-bottom: 2px solid #FFF;
+}
+
+.profileNick{
+    font-size: 14px;
+    color: #797e8a;
+}
+
+.message{
+    margin-top: 5px;
+    word-break: break-all;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
